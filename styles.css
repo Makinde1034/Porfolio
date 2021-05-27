@@ -250,7 +250,7 @@ nav h1{
     border-radius: 30px;
     margin-top: 20px;
     outline: none;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
     color: var(--dark-text-mode);
