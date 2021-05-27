@@ -341,10 +341,21 @@ nav h1{
 
     .about{
         padding: 20px;
+        align-items: flex-start;
     }
 
     .about p{
         width: 100%;
+        text-align:left;
+        
+    }
+
+    .projects{
+        padding-left: 20px;
+    }
+
+    .projects h1{
+        text-align:left;
     }
 
     .naij{
