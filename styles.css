@@ -9,7 +9,7 @@
 
 html[data-theme="light"]{
     --dark-text-mode: black;
-    background:white;
+    background:#fafafa;
     --project-type:#D3D3D3;
     --paragraph:black;
     transition: 0.5s;
@@ -31,10 +31,10 @@ html[data-theme="dark"]{
 
 nav{
   
-    height: 8vh;
+    height: 10vh;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
     align-items: center;
     justify-content: space-between;
 }
@@ -274,6 +274,7 @@ nav h1{
     height: auto;
     display: flex;
     padding-top: 100px;
+    padding-bottom: 100px;
     /* display: none; */
 }
 
@@ -329,10 +330,15 @@ footer{
     justify-content: center
     ;
     padding: 30px;
-    color: var(--project-type);
+    color: #73737D;
+    border-top: 1px solid #c9c9ce;
 }
 
 @media screen and (max-width:1024px) {
+    nav{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .content{
         padding-left: 20px;
     }
@@ -440,5 +446,10 @@ footer{
         padding-right: 0px;
         padding-left: 20px;
         order: 1;
+    }
+
+    footer{
+        border-top: none;
+        font-size: 14px;
     }
 }
